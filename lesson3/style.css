@@ -1,0 +1,37 @@
+.month{
+    width: 320px;
+    margin: 100px auto;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 15px;
+    box-shadow: 3px 3px 15px 0 #ccc;
+}
+
+h1{
+    text-align: center;
+}
+
+.day {
+    display: inline-block;
+    width: 30px; 
+    text-align: center;
+    padding: 10px 5px;
+}
+
+.week-end {
+    color: red;
+}
+
+.other{
+    opacity: 0.3;
+}
+
+.name{
+    font-weight: bold;
+}
+
+.current{
+    color: white ;
+    background-color: red;
+}
+

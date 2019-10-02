@@ -1,0 +1,134 @@
+body {
+    background-image: url('images/sand.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#car {
+    position: absolute;
+    top: 500px;
+    left: 930px;
+    width: 150px;
+    height: 120px;
+}
+
+#car1 {
+    width: 90px;
+    height: 70px;
+    position: absolute;
+    top: 200px;
+    left: 930px;
+}
+
+#build1 {
+    width: 700px;
+    height: 700px;
+    position: absolute;
+    top: 250px;
+    left: 1300px;
+}
+
+#sumo {
+    width: 30px;
+    height: 50px;
+    position: absolute;
+    top: 900px;
+    left: 1550px;
+}
+
+#sumo2 {
+    width: 30px;
+    height: 50px;
+    position: absolute;
+    top: 900px;
+    left: 1600px;
+}
+
+#sumo3 {
+    width: 30px;
+    height: 50px;
+    position: absolute;
+    top: 900px;
+    left: 1650px;
+}
+
+#jolie {
+    width: 110px;
+    height: 125px;
+    position: absolute;
+    top: 215px;
+    left: 1430px;
+}
+
+.tree {
+    position: absolute;
+    width: 110px;
+    height: 150px;
+}
+
+#garden {
+    top: 215px;
+    left: 800px;
+}
+
+#garden {
+    top: 215px;
+    left: 800px;
+}
+
+#garden1 {
+    top: 115px;
+    left: 800px;
+}
+
+#garden2 {
+    top: 315px;
+    left: 800px;
+}
+
+#garden3 {
+    top: 415px;
+    left: 780px;
+}
+
+#garden4 {
+    top: 515px;
+    left: 755px;
+}
+
+#garden5 {
+    top: 615px;
+    left: 730px;
+}
+
+#zebra {
+    width: 260px;
+    height: 150px;
+    position: absolute;
+    top: 805px;
+    left: 860px;
+}
+
+#stadium {
+    width: 600px;
+    position: absolute;
+    top: 15px;
+    left: 100px;
+}
+
+#people {
+    width: 150px;
+    height: 85px;
+    position: absolute;
+    top: 690px;
+    left: 160px;
+}
+
+#oasis {
+    width: 260px;
+    height: 150px;
+    position: absolute;
+    top: 200px;
+    left: 1410px;
+    z-index: -1;
+}

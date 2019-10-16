@@ -107,7 +107,7 @@ img{
     border: 2px solid black;
 }
 .left-panel{
-    min-height: 1060px;
+    min-height: 1100px;
     background:  rgba(162, 162, 197, 0.5);
     width: 300px;
     float: left;
@@ -121,6 +121,8 @@ img{
 }
 
 .footer {
+    max-width: 1024px;
+    margin: 0 auto;
     background-color:  #176fc1;
     text-align: center;
     padding: 1rem; 

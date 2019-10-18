@@ -1,11 +1,18 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,700,700i&display=swap&subset=cyrillic');
+@font-face {
+    font-family: 'aliceregular';
+    src: url('alice-regular-webfont.eot');
+    src: url('alice-regular-webfont.eot?#iefix') format('embedded-opentype'), url('alice-regular-webfont.woff2') format('woff2'), url('alice-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 
-*{
+* {
     box-sizing: border-box;
 }
+
 body {
     font-size: 16px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'aliceregular', sans-serif;
     margin: 0;
 }
 
@@ -30,19 +37,18 @@ header {
     margin-bottom: 1rem;
 }
 
-#logo{
+#logo {
     width: 85px;
-    padding:1rem;
+    padding: 1rem;
     float: left;
-
 }
 
-nav{
+nav {
     clear: both;
     background-color: #176fc1;
 }
 
-ul{
+ul {
     list-style: none;
     margin: 0;
     padding-left: 0;
@@ -50,30 +56,28 @@ ul{
     overflow: hidden;
 }
 
-.g{
+.g {
     float: left;
-    
 }
 
-a{
+a {
     text-decoration: none;
     display: block;
-    font-weight: bolder;color: black;
+    font-weight: bolder;
+    color: black;
     padding: 12px;
     border-radius: 4px;
-
 }
 
-a:hover{
+a:hover {
     background: #e2dbdb;
 }
-
 
 main {
     clear: both;
 }
 
-.main-text{
+.main-text {
     min-height: 1024px;
     background-image: url(dk_WB_copy_2.jpg);
     background-repeat: no-repeat;
@@ -85,20 +89,22 @@ main {
     text-align: justify;
 }
 
-h1, h3{
+h1, h3 {
     text-align: center;
 }
 
-p{
+p {
     text-indent: 1rem;
 }
-img{
+
+img {
     width: 200px;
-     height: 100px;
-     float: left;
-     margin: 5px;
+    height: 100px;
+    float: left;
+    margin: 5px;
 }
-.list{
+
+.list {
     height: 150px;
     width: 150px;
     margin: 5px;
@@ -106,15 +112,17 @@ img{
     float: left;
     border: 2px solid black;
 }
-.left-panel{
+
+.left-panel {
     min-height: 1100px;
-    background:  rgba(162, 162, 197, 0.5);
+    background: rgba(162, 162, 197, 0.5);
     width: 300px;
     float: left;
     margin-right: 5px;
     font-size: 1.3rem;
 }
-.left-panel a{
+
+.left-panel a {
     margin: 2px auto;
     background: #176fc1;
     padding: 2px;
@@ -123,9 +131,9 @@ img{
 .footer {
     max-width: 1024px;
     margin: 0 auto;
-    background-color:  #176fc1;
+    background-color: #176fc1;
     text-align: center;
-    padding: 1rem; 
+    padding: 1rem;
     clear: both;
-    font-weight: 600;  
+    font-weight: 600;
 }

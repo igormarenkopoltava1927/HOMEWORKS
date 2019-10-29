@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Forms</title>
+    <link rel="stylesheet" href="style.css" href="normalize.css">
+</head>
+
+<body>
+    <form method="post" action="http://nickblack.pro/send.php" enctype="text/plain">
+        <fieldset>
+            <legend>Персональные даные</legend>
+            <p>
+                <label for="fname">
+                    Имя<em>*</em>
+                </label>
+                <input id="fname" required type="text" name="fname">
+            </p>
+            <p>
+                <label for="sname">
+                    Фамилия
+                </label>
+                <input id="sname" type="text" name="sname">
+            </p>
+            <p>
+                <label for="age">
+                    Возраст
+                </label>
+                <input id="age" type="number" name="age" min="1" max="100">
+            </p>
+            <p>
+                <label for="bday">
+                    Дата рождения
+                </label>
+                <input id="bday" type="date" name="bday">
+            </p>
+
+
+
+        </fieldset>
+        <fieldset>
+            <legend>Контактная информация</legend>
+
+            <label for="mail">
+                Почта
+            </label>
+            <input id="mail" type="email" name="mail">
+
+            <label for="mymale">
+                Email получателя <em>*</em>
+            </label>
+            <input id="mymale" required type="email" name="mymale" value="marenko1975@gmail.com" disabled>
+
+            <label for="phone">
+                Телефон <em>*</em>
+            </label>
+            <input id="phone" required type="tel" name="phone">
+        </fieldset>
+        <p>* - обязательное к заполнению</p>
+
+
+        <p><input type="submit" value="Отослать"> </p>
+
+    </form>
+
+</body>
+
+</html>

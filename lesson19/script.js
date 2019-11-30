@@ -20,7 +20,7 @@ function isEven (n) {
         return false
     }
 }
- console.log(isEven(n));
+console.log(isEven(n));
 //3
 let value = +prompt('value?','');
 
@@ -50,6 +50,6 @@ function min (a,b) {
         return 'Равные аргументы';
     }
     /*return a < b ? a : b;*/
- }
- console.log(min(a,b));
+}
+console.log(min(a,b));
  
